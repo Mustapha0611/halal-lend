@@ -16,7 +16,7 @@
         <section class="flex-1 relative ">
             <!-- <img src="@/assets/dots.png"> -->
             <!-- <img src="@/assets/dot.png" > -->
-            <img src="@/assets/borrow.png" class="md:max-w-[35rem] max-h-[30rem]  animate__animated animate__fadeIn animate__delay-2s">
+            <img src="@/assets/borrow.png" class="md:w-[35rem] max-h-[30rem]  animate__animated animate__fadeIn animate__delay-2s">
         </section>
     </div>
 </template>
