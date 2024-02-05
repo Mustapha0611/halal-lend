@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-content text-gray-100 py-10" id="developers">
+  <div class="bg-content text-gray-100 py-10 scroll-m-10" id="developers">
     <h1 class="text-center text-4xl font-semibold">Meet Our Partners</h1>
     <section class="flex justify-center gap-20 flex-wrap">
         <div v-for="partner of partners" class="max-w-[20rem] md:min-w-[25rem] px-10 py-5 my-10 shadow-xl">
