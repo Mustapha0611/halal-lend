@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@splidejs/vue-splide": "^0.6.12",
     "animate.css": "^4.1.1",
     "aos": "^2.3.4",
     "hover.css": "^2.3.2",

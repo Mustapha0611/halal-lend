@@ -8,7 +8,7 @@
       <h2
         class="text-secondary text-center md:text-5xl my-10 text-2xl px-2"
         data-aos="fade-up"
-        data-aos-delay="200"
+       
       >
         Our Social Media Handles
       </h2>
@@ -16,8 +16,8 @@
         <div v-for="social in socials">
           <a
             :href="social.link"
-            data-aos="fade-right"
-            data-aos-delay="200"
+            data-aos="zoom-in"
+           
             class="flex items-center justify-center md:gap-3 gap-2 py-1 px-2 md:px-4 md:text-base text-xs rounded-lg border-secondary"
             ><span>{{ social.name }}</span
             ><img :src="social.img" alt=""
