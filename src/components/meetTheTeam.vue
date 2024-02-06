@@ -93,7 +93,7 @@ const options = {
   arrows:false
 };
 </script>
-<style>
+<style scoped>
 .show {
   max-height: 300px;
   transition: max-height 0.2s linear;

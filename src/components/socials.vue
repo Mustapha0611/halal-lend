@@ -16,8 +16,6 @@
         <div v-for="social in socials">
           <a
             :href="social.link"
-            data-aos="zoom-in"
-           
             class="flex items-center justify-center md:gap-3 gap-2 py-1 px-2 md:px-4 md:text-base text-xs rounded-lg border-secondary"
             ><span>{{ social.name }}</span
             ><img :src="social.img" alt=""

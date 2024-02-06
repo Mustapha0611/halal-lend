@@ -13,7 +13,7 @@
             <a href="" class="text-white">Getting Started</a>      
         </button>
         </section>
-        <section class="flex-1 relative ">
+        <section class="flex-1 mt-10 md:mt-0">
             <!-- <img src="@/assets/dots.png"> -->
             <!-- <img src="@/assets/dot.png" > -->
             <img src="@/assets/borrow.png" class="md:w-[35rem] max-h-[30rem]  animate__animated animate__fadeIn animate__delay-2s">

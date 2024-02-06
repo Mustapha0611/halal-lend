@@ -16,7 +16,7 @@
     <nav role="navigation" class="flex md:justify-between">
       <ul
         role="menu"
-        class="flex px-5 lg:px-20 items-center gap-7 text-[16px] z-10 flex-col md:flex-row absolute md:static md:h-auto w-full left-[-100%] h-[100dvh] transition-all top-0 bg-main justify-center"
+        class="flex px-5 lg:px-20 items-center gap-7 text-[16px] z-40 flex-col md:flex-row absolute md:static md:h-auto w-full left-[-100%] h-[100vh] transition-all top-0 bg-main justify-center"
         :class="{ show: showMenu }"
       >
     
