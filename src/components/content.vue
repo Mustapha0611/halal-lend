@@ -11,15 +11,15 @@
     </div>
     <div class="flex items-center flex-col md:flex-row gap-10 lg:px-20 px-10 pb-32">
       <section
-      class="md:basis-1/4 basis-0"
+      class="md:basis-1/4 basis-0 md:hidden"
       data-aos="zoom-In" data-aos-delay="300"
       ><img src="@/assets/L_B.png" /></section>
-      <section class="md:basis-3/4 basis-0">
-        <div class="flex w-full items-center gap-5 lg:px-20 pt-5">
+      <section class="">
+        <div class="flex w-full justify-center items-center gap-5 lg:px-20 pt-5">
             <img src="@/assets/line.png" class=""> <h2 class="text-white md:text-2xl text-sm">Some of our Amazing Features</h2>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2  gap-10  mt-10 text-white" >
-          <section class="px-7 w-[100%] py-6 md:py-5 lg:py-10 rounded-md border-2 border-gray-300" v-for="feature in features"
+        <div class="grid place-content-center md:px-10 grid-cols-1 md:grid-cols-2 gap-10  mt-10 text-white" >
+          <section class="px-7 md:w-[100%] py-6 md:py-5 lg:py-10 rounded-md border-2 border-gray-300" v-for="feature in features"
           data-aos="fade-up">
             <img :src="feature.img" data-aos-delay="300" data-aos="zoom-in">
             <h2 class="font-bold text-2xl my-5" data-aos-delay="400" data-aos="zoom-in">{{ feature.title }}</h2>
