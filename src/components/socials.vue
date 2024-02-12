@@ -1,6 +1,6 @@
 <template>
   <main>
-    <div class="flex justify-center gap-5 items-center mt-10">
+    <div class="flex justify-center gap-5 items-center pt-10">
       <img src="../assets/line.png" alt="" />
       <h2 class="md:text-3xl text-xl" data-aos="fade-up">Social Media</h2>
     </div>

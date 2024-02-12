@@ -8,15 +8,15 @@
             </h2>
             <p class="text-secondary lg:text-[2.1rem] lg:leading-[1.2] py-10 md:text-xl animate__animated animate__fadeInLeft animate__delay-1s">Access loans at 0% interest rate upon repayment</p>
             <button
-              class=" px-8 py-3 text-sm rounded-md shadow shadow-yellow-600 font-semibold bg-btn animate__animated animate__fadeInRight animate__delay-1s"
+              class=" px-8 py-3 text-white text-sm rounded-md shadow shadow-yellow-600 font-semibold bg-btn animate__animated animate__fadeInRight animate__delay-1s"
             >
-            <a href="" class="text-white">Getting Started</a>      
+            Seed sale and Initial NFT Offering is live. Click here for more     
         </button>
         </section>
         <section class="flex-1 mt-10 md:mt-0">
             <!-- <img src="@/assets/dots.png"> -->
             <!-- <img src="@/assets/dot.png" > -->
-            <img src="@/assets/borrow.png" class="md:w-[35rem] max-h-[30rem]  animate__animated animate__fadeIn animate__delay-2s">
+            <img src="@/assets/AllSpin.gif" class="md:w-[35rem] max-h-[30rem]  animate__animated animate__fadeIn animate__delay-2s">
         </section>
     </div>
 </template>
