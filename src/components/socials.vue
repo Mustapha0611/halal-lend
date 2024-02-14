@@ -6,7 +6,7 @@
     </div>
     <div>
       <h2
-        class="text-secondary text-center md:text-5xl my-10 text-2xl px-2"
+        class="text-gray-300 text-center md:text-5xl my-10 text-2xl px-2"
         data-aos="fade-up"
        
       >

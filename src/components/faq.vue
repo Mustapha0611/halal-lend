@@ -1,5 +1,5 @@
 <template >
-  <div class="bg-content text-gray-100 ">
+  <div class=" text-gray-100 ">
     <h2 class="text-center font-semibold md:text-5xl text-4xl py-3 ">FAQs</h2>
     <Accordion
       

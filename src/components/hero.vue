@@ -13,10 +13,10 @@
             Seed sale and Initial NFT Offering is live. Click here for more     
         </button>
         </section>
-        <section class="flex-1 my-10 md:mt-0">
+        <section class="flex-1 my-20 md:mt-0">
             <!-- <img src="@/assets/dots.png"> -->
             <!-- <img src="@/assets/dot.png" > -->
-            <img src="@/assets/AllSpin.gif" class="md:w-[35rem] max-h-[30rem]  animate__animated animate__fadeIn animate__delay-2s">
+            <img src="@/assets/AllSpin-unscreen.gif" class="md:w-[40rem] max-h-[30rem]  animate__animated animate__fadeIn animate__delay-2s">
         </section>
     </div>
 </template>

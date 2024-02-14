@@ -16,7 +16,7 @@ export default {
 </script>
 
 <template>
-  <main class="-z-10">
+  <main class="-z-10 bg-main">
     <hero />
     <content />
     <faq />

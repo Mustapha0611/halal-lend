@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-content text-gray-100 py-10 scroll-m-10" id="developers">
+  <div class=" text-gray-100 py-10 scroll-m-10" id="developers">
     <h1 class="text-center text-4xl font-semibold">Developers</h1>
     <section class="flex  justify-center">
       <Splide :options="options" class="flex justify-center md:w-[50%] lg:w-[35%] w-[86%] py-10" >
