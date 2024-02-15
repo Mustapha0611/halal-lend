@@ -1,11 +1,12 @@
 <template>
   <div class="bg-main h-auto">
-    <div class="flex justify-center md:py-32 py-20 leading-loose">
+    <div class="flex justify-center md:py-28 py-20 leading-loose">
       <p
-        class="lg:w-[60%] md:w-[65%] text-white w-[90%] lg:text-5xl md:text-4xl leading-loose text-2xl text-center"
+        class="lg:w-[60%] md:w-[70%] text-white w-[90%] lg:text-5xl md:text-4xl leading-loose text-2xl text-center"
         data-aos="fade-up"
       >
-      Supply <span class="text-btn">Liquidity, Borrow Assets, Stake, Earn Yields.</span>  All With No More Interest Accruals. Borrowing Empowered, Capital Provision Rewarded
+      Supply <span class="text-btn">Liquidity, Borrow Assets, Stake, Earn Yields.</span>  All With No More Interest Accruals. <br> 
+      <span class="text-btn">Borrowing Empowered, Capital Provision Rewarded</span>
       </p>
     </div>
     <div class="flex items-center flex-col md:flex-row gap-10 lg:px-20 px-10 pb-32">
@@ -56,9 +57,9 @@ export default{
                 body:'Create CDPs with a collection of different Cardano Native Tokens as collateral',
             },
             {
-                title:'Multi-Assets Collateral',
-                img:search,
-                body:'Create CDPs with a collection of different Cardano Native Tokens as collateral',
+                title:'FeeDEx: Cardano DEx oracle',
+                img:threedots,
+                body:'Price feeds for Smart Contract developers using Aiken',
 
             },
             ]
