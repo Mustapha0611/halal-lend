@@ -1,23 +1,20 @@
 <template>
-  <div class=" text-gray-100 py-10 scroll-m-10" id="developers">
+  <div class="text-gray-100 py-10 scroll-m-10" id="developers">
     <h1 class="text-center text-4xl font-semibold">Developers</h1>
-    <section class="flex  justify-center">
-      <Splide :options="options" class="flex justify-center md:w-[50%] lg:w-[35%] w-[86%] py-10" >
-        <SplideSlide
-          class="w-full max-h[400px] px-10 py-5 my-10 shadow-xl"
-        >
-          <a
-            href="https://github.com/Mercurial"
+    <section class="flex justify-center">
+      <Splide
+        :options="options"
+        class="flex justify-center md:w-[50%] lg:w-[35%] w-[86%] py-10"
+      >
+        <SplideSlide class="w-full max-h[400px] px-10 py-5 my-10 shadow-xl">
+          <span
             target="_blank"
-            class=" mt-10 inline-block hover:scale-105 transition-all"
+            class="mt-10 flex justify-center hover:scale-105 transition-all"
           >
             <img src="../assets/saib.png" alt="saib logo" />
-          </a>
+          </span>
           <article class="">
-            <p
-              class="pt-5 max-h-0 overflow-hidden transition-all italic font-thin"
-              :class="{ show: show }"
-            >
+            <p class="pt-5 italic">
               SAIB, led by CEO
               <a
                 href="http://github.com/Mercurial"
@@ -32,28 +29,27 @@
             </p>
             <button
               class="bg-btn py-3 font-semibold rounded-md px-5 mt-10 inline-block hover:scale-105 transition-all"
-              @click="showText1"
             >
-              Learn More
+              <a
+                href="https://github.com/Mercurial"
+                target="_blank"
+                class="hover:scale-105 transition-all"
+              >
+                Learn More</a
+              >
             </button>
           </article>
         </SplideSlide>
-        <SplideSlide
-          class="w-full max-h[400px] px-10 py-5 my-10 shadow-xl"
-        >
-          <a
-            href="https://osmiumdao.io"
+        <SplideSlide class="w-full max-h[400px] px-10 py-5 my-10 shadow-xl">
+          <span
             target="_blank"
-            class=" mt-10 inline-block hover:scale-105 transition-all"
+            class="mt-10 flex justify-center hover:scale-105 transition-all"
           >
-            <img src="../assets/os.png" alt="saib logo" />
-          </a>
+            <img src="../assets/os.png" alt="os logo" />
+          </span>
 
           <article class="">
-            <p
-              class="pt-5 max-h-0 overflow-hidden italic font-thin transition-all"
-              :class="{ show: show2 }"
-            >
+            <p class="pt-5 italic">
               "The groundbreaking Cardano investment DAO, has shifted its focus
               to developing community products and ensuring a sustainable
               treasury. This strategic evolution reflects the organization's
@@ -61,10 +57,15 @@
               ecosystem.
             </p>
             <button
-              @click="showText2"
               class="bg-btn py-3 font-semibold rounded-md px-5 mt-10 inline-block hover:scale-105 transition-all"
             >
-              Learn More
+              <a
+                href="https://osmiumdao.io"
+                target="_blank"
+                class="hover:scale-105 transition-all"
+              >
+                Learn More</a
+              >
             </button>
           </article>
         </SplideSlide>
@@ -87,10 +88,10 @@ const options = {
   type: "loop",
   perPage: 1,
   rewind: true,
-  autoplay:true,
- pagination:false,
- interval:3000,
-  arrows:false
+  autoplay: true,
+  pagination: false,
+  interval: 3000,
+  arrows: false,
 };
 </script>
 <style scoped>

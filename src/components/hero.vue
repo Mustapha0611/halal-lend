@@ -10,7 +10,7 @@
             <button
               class=" px-3 py-3 text-white text-sm rounded-md shadow shadow-yellow-600 font-semibold bg-btn animate__animated animate__fadeInRight animate__delay-1s"
             >
-            Seed sale and Initial NFT Offering is live. Click here for more     
+            Seed sale is live.  
         </button>
         </section>
         <section class="flex-1 my-20 md:mt-0">
